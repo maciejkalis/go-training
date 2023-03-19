@@ -1,4 +1,4 @@
-# go-training
+# Go Training
 
 ## Description
 
