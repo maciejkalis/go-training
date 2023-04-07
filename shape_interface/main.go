@@ -34,13 +34,9 @@ func printArea(s shape) {
 }
 
 func (s square) getArea() float64 {
-	area := s.sideLength * s.sideLength
-
-	return area
+	return s.sideLength * s.sideLength
 }
 
 func (t triangle) getArea() float64 {
-	area := 0.5 * t.base * t.height
-
-	return area
+	return 0.5 * t.base * t.height
 }
